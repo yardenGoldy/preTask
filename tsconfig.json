@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "dist",
+    "lib": [
+      "es2015.collection",
+      "es6"
+    ]
+  },
+  "include": [
+    "server.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "compileOnSave": true
+}
